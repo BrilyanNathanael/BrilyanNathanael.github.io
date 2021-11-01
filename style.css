@@ -743,6 +743,15 @@ footer a img {
   #moreinfo #education .responsive .content-pict {
     margin-bottom: 9em;
   }
+
+  #moreinfo .container .sub-skill p {
+    font-size: 20px;
+  }
+
+  #moreinfo .sub-skill .skill-range .poin {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 @media (max-width: 380px) {
