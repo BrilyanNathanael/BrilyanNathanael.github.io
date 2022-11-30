@@ -96,7 +96,7 @@ body {
   margin-left: 0.3em;
 }
 .landing img {
-  width: 250px;
+  width: 280px;
   height: 270px;
   padding: 0.8em;
   border-radius: 100%;
@@ -322,6 +322,10 @@ body {
 .modal .modal-dialog .modal-content .modal-body .laravel {
   background-color: rgb(37, 13, 173);
   /* background-color: rgb(211, 211, 211); */
+}
+
+.modal .modal-dialog .modal-content .modal-body .react{
+  background-color: rgb(73, 118, 163);
 }
 
 .modal .modal-dialog .modal-content .modal-body a {
@@ -697,6 +701,7 @@ footer a img {
 
 @media (max-width: 920px) {
   .landing {
+    padding-top: 2em;
     flex-direction: column-reverse;
     justify-content: space-evenly;
   }
